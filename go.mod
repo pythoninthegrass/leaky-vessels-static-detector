@@ -1,13 +1,15 @@
 module static-detector
 
-go 1.21.5
+go 1.23.0
+
+toolchain go1.24.1
 
 require (
 	github.com/dlclark/regexp2 v1.10.0
 	github.com/docker/docker v24.0.0-rc.2.0.20230718135204-8e51b8b59cb8+incompatible
 	github.com/joho/godotenv v1.5.1
 	github.com/moby/buildkit v0.12.4
-	github.com/sirupsen/logrus v1.9.0
+	github.com/sirupsen/logrus v1.9.3
 	golang.org/x/sync v0.3.0
 )
 
@@ -25,7 +27,7 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	golang.org/x/mod v0.12.0 // indirect
 	golang.org/x/net v0.17.0 // indirect
-	golang.org/x/sys v0.14.0 // indirect
+	golang.org/x/sys v0.35.0 // indirect
 	golang.org/x/tools v0.12.0 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
 	gotest.tools/v3 v3.5.1 // indirect
